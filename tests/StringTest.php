@@ -169,10 +169,9 @@ class StrTest extends TestCase
     public function testLength()
     {
         $string = new Str('Lorem ipsum');
-        $string->length();
 
         $expected = 11;
-        $this->assertEquals($expected, $string);
+        $this->assertEquals($expected, $string->length());
     }
 
     public function testFindAndReplace()
