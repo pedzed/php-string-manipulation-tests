@@ -208,7 +208,8 @@ class StrTest extends TestCase
 
     public function testFactoryMethod()
     {
-        $string = Str::text('Lorem ipsum DOLOR SIT amet.  ')->trim();
+        $string = Str::text('Lorem ipsum DOLOR SIT amet.  ');
+        $string->trim();
 
         $expected = 'Lorem ipsum DOLOR SIT amet.';
         $this->assertEquals($expected, $string);
