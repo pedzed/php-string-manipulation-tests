@@ -24,4 +24,4 @@ Test cases for string manipulation.
 
 You should see many errors/failures. You should write code, so that all errors will go away.
 
-_Note: It is not allowed to touch the `/tests` folder. You may look at the code, but you may not modify it._
+_**Note:** It is not allowed to touch the `/tests` folder. You may look at the code, but you may not modify it._
