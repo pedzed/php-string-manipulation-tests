@@ -108,7 +108,7 @@ class StrTest extends TestCase
         $string = new Str('  !   Lorem ipsum DOLOR SIT amet.  !  ');
         $string->trimRight();
 
-        $expected = '!   Lorem ipsum DOLOR SIT amet.  !  ';
+        $expected = '  !   Lorem ipsum DOLOR SIT amet.  !';
         $this->assertEquals($expected, $string);
     }
 
